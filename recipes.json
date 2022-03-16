@@ -1,0 +1,15 @@
+[
+  {
+    "recipe": "<spaghetti & meatballs>",
+    "ingredients": ["spaghetti pasta", "pasta sauce", "meatballs"]
+  },
+  {
+    "recipe": "spaghetti pasta",
+    "ingredients": ["wheat flour"]
+  },
+  {
+    "recipe": "pasta sauce",
+    "ingredients": ["tomatoes", "olive oil", "garlic"]
+  },
+  { "recipe": "meatballs", "ingredients": ["ground beef", "ground pork"] }
+]
