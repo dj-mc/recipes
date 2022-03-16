@@ -1,4 +1,4 @@
-import recipe_table from './templates/recipe.mjs';
+import recipe_table from './templates/recipe_table.mjs';
 
 async function get_recipes_json() {
   // Expect [{},{},{}] in json file
@@ -9,7 +9,7 @@ async function get_recipes_json() {
 }
 
 const table = document.createElement('table');
-const table_root = document.getElementById('table_root');
+const table_root = document.getElementById('table-root');
 get_recipes_json().then((result) => {
   table.innerHTML = recipe_table(result);
   table_root.appendChild(table);

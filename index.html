@@ -6,7 +6,23 @@
     <script type="module" src="./app.mjs"></script>
     <title>recipes</title>
   </head>
+
   <body>
-    <div id="table_root"></div>
+    <div id="table-root"></div>
   </body>
+
+  <template id="template-element">
+    <style>
+      h2 {
+        color: white;
+        background-color: black;
+      }
+    </style>
+    <h2><slot name="h2-title">Default title</slot></h2>
+    <ol>
+      <li>asdf</li>
+      <li>asdf</li>
+      <li>asdf</li>
+    </ol>
+  </template>
 </html>
